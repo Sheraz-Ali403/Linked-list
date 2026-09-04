@@ -131,5 +131,15 @@ public:
         delete temp;
     }
 
+    // display 
+    void display(){
+        if(head==nullptr) {
+            throw std::out_of_range("Cannot display an empty list");
+        }
+        Node<T> *temp = head;
+        while(temp->next!=nullptr){
+            cout << "Data :" << temp->data << endl;
+        }
+    }
 
 };
