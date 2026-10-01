@@ -10,11 +10,11 @@ LinkedLists/
 ├── AGENTS.md
 ├── TODO.md
 │
-├── singly/
+├── Singly/
 │   ├── SinglyLinkedList.h
 │   └── main.cpp
 │
-├── doubly/
+├── Doubly/
 │   ├── DoublyLinkedList.h
 │   └── main.cpp
 │

@@ -25,13 +25,12 @@ public:
     // add at end
     void pushBack(T data){
         Node<T> *newNode =  new Node;
-        Node->data = data;
-        Node->next = nullptr;
+        newNode->data = data;
+        newNode->next = nullptr;
 
-        if(head == nullptr)  head = newNode;
+        if(!head)  head = newNode;
         else {
-            Node<T> *temp;
-            temp = head;
+            Node<T> *temp = head;
             while(temp->next!=nullptr){
                 temp = temp->next;
             }
